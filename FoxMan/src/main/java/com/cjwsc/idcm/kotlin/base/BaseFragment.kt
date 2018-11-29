@@ -16,11 +16,7 @@ import com.cjwsc.idcm.base.BaseView
 import com.cjwsc.idcm.model.ContractProxy
 import com.cjwsc.idcm.widget.LoadDialog.LoadingPopWindow
 import com.trello.rxlifecycle2.components.support.RxFragment
-
 import org.simple.eventbus.EventBus
-
-import butterknife.ButterKnife
-import butterknife.Unbinder
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
 
@@ -43,7 +39,6 @@ abstract class BaseFragment : RxFragment(), BaseProgressView<Any> {
     //    定义Presenter
     //    protected P mPresenter;
 
-    private var unbinder: Unbinder? = null
 
     //    获取布局资源文件
     protected abstract val layoutId: Int
@@ -93,7 +88,6 @@ abstract class BaseFragment : RxFragment(), BaseProgressView<Any> {
             rootView = super.onCreateView(inflater, container, savedInstanceState)
         }
         EventBus.getDefault().register(this)
-        unbinder = ButterKnife.bind(this, rootView!!)
         dialog = LoadingPopWindow(activity)
 
         //     bindMVP();
@@ -180,7 +174,6 @@ abstract class BaseFragment : RxFragment(), BaseProgressView<Any> {
 
         EventBus.getDefault().unregister(this)
         unSubscribe()
-        if (unbinder != null) unbinder!!.unbind()
         if (dialog != null) {
             dialog!!.dismiss()
             this.dialog = null

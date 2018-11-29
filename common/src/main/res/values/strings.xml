@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">common</string>
+    <string name="str_home">首页</string>
+    <string name="str_market">行情</string>
+    <string name="str_c2c">C2C</string>
+    <string name="str_exchange">交易</string>
+    <string name="str_mine">我的</string>
 </resources>
