@@ -4,6 +4,7 @@ import android.os.Bundle
 import com.cjwsc.idcm.kotlin.base.BaseFragment
 
 class HomeFragment : BaseFragment() {
+
     override val layoutId: Int
         get() = 0
 
