@@ -1,1 +1,1 @@
-include ':app', ':user', ':common', ':pay','Foxman'
+include ':app', ':user', ':common', ':c2c', ':exchange','Foxman'
