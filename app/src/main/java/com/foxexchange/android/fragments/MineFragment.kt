@@ -1,12 +1,15 @@
 package com.foxexchange.android.fragments
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import com.cjwsc.idcm.Utils.GlideUtil
 import com.cjwsc.idcm.base.ui.view.roundimge.CircleImageView
 import com.cjwsc.idcm.kotlin.base.BaseFragment
+import com.foxexchange.android.MainActivity
 import com.foxexchange.android.R
+import com.foxexchange.user.MyAssetActivity
 import kotlinx.android.synthetic.main.mine_frg_layout.*
 
 class MineFragment : BaseFragment(), View.OnClickListener {
@@ -42,7 +45,9 @@ class MineFragment : BaseFragment(), View.OnClickListener {
     override fun onClick(v: View?) {
         when(v){
             is_login_ly -> isLogin()
-            recharge_coins_ly -> isLogin()
+            recharge_coins_ly -> {
+                jumpToNext(MyAssetActivity().javaClass)
+            }
             withdraw_coins_ly -> isLogin()
             transfer_coins_ly -> isLogin()
             my_asset_ly -> isLogin()
@@ -55,6 +60,13 @@ class MineFragment : BaseFragment(), View.OnClickListener {
             help_center_ly -> isLogin()
             personal_setting_ly -> isLogin()
         }
+    }
+
+    //跳转二级页面
+    private fun  jumpToNext(t: Class<Any>){
+        val intent  = Intent()
+        intent.setClass(mContext, t)
+        startActivity(intent)
     }
 
     private fun isLogin(){
