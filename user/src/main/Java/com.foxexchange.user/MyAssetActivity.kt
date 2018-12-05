@@ -11,7 +11,7 @@ import com.foxexchange.common.activitys.BaseFoxExChangeActivity
 class MyAssetActivity : BaseFoxExChangeActivity(){
 
     override val layoutId: Int
-        get() = R.layout.my_asset_layout
+        get() = R.layout.activity_my_asset_layout
 
     override fun onInitView(bundle: Bundle?) {
 
