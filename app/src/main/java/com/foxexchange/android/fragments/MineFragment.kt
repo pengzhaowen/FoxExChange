@@ -16,7 +16,7 @@ class MineFragment : BaseFragment() {
         get() = R.layout.fragment_mine_layout
 
     override fun onInitView(bundle: Bundle?) {
-//        GlideUtil.loadImageView(mContext, R.mipmap.login_head, head_img)
+//        GlideUtil.loadImageView(mContext, R.mipmap.icon_login_head, head_img)
 //        person_center_user_name.text = "凌"
     }
 
@@ -81,7 +81,7 @@ class MineFragment : BaseFragment() {
 
     private fun isLogin() {
         Toast.makeText(mContext, "登陆了", Toast.LENGTH_SHORT).show()
-        GlideUtil.loadImageView(mContext, R.mipmap.login_head, head_img)
+        GlideUtil.loadImageView(mContext, R.mipmap.icon_login_head, head_img)
         person_center_user_name.text = "凌"
     }
 }
