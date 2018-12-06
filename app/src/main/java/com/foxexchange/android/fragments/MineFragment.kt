@@ -44,7 +44,7 @@ class MineFragment : BaseFragment() {
         when (v) {
             is_login_ly -> isLogin()
 
-            recharge_coins_ly -> {
+            recharge_coins_ly -> {  //我的资产
                 jumpToNext(MyAssetActivity().javaClass)
             }
 

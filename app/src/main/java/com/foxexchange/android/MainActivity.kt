@@ -33,35 +33,35 @@ class MainActivity : BaseActivity() {
         val HOME_PAGE = getString(R.string.str_home)
         mNavigateTabBar!!.addTab(HomeFragment::class.java,
                 NavigateTabBar.TabParam(
-                        R.mipmap.home,
-                        R.mipmap.home_sel,
+                        R.mipmap.icon_home,
+                        R.mipmap.icon_home_sel,
                         HOME_PAGE))
         val MARKET_PAGE = getString(R.string.str_market)
         mNavigateTabBar!!.addTab(MarketFragment::class.java,
                 NavigateTabBar.TabParam(
-                        R.mipmap.market,
-                        R.mipmap.market_sel,
+                        R.mipmap.icon_market,
+                        R.mipmap.icon_market_sel,
                         MARKET_PAGE))
 
         val C2C_PAGE = getString(R.string.str_c2c)
         mNavigateTabBar!!.addTab(C2CFragment::class.java,
                 NavigateTabBar.TabParam(
-                        R.mipmap.c2c,
-                        R.mipmap.c2c_sel,
+                        R.mipmap.icon_c2c,
+                        R.mipmap.icon_c2c_sel,
                         C2C_PAGE))
 
         val EXCHANGE_PAGE = getString(R.string.str_exchange)
         mNavigateTabBar!!.addTab(ExchangeFragment::class.java,
                 NavigateTabBar.TabParam(
-                        R.mipmap.exchange,
-                        R.mipmap.exchange_sel,
+                        R.mipmap.icon_exchange,
+                        R.mipmap.icon_exchange_sel,
                         EXCHANGE_PAGE))
 
         val MINE_PAGE = getString(R.string.str_mine)
         mNavigateTabBar!!.addTab(MineFragment::class.java,
                 NavigateTabBar.TabParam(
-                        R.mipmap.mine,
-                        R.mipmap.mine_sel,
+                        R.mipmap.icon_mine,
+                        R.mipmap.icon_mine_sel,
                         MINE_PAGE))
 
         mNavigateTabBar!!.setTabSelectListener(object : NavigateTabBar.OnTabSelectedListener {

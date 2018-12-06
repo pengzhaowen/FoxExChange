@@ -5,8 +5,8 @@
     android:id="@+id/toolbar"
     android:layout_width="match_parent"
     android:layout_height="@dimen/dp45"
-    android:background="@color/colorPrimary"
-    >
+    android:background="@color/colorPrimary">
+
     <ImageView
         android:id="@+id/ic_back"
         android:layout_width="@dimen/dp25"
@@ -15,8 +15,7 @@
         android:src="@mipmap/ic_back"
         android:layout_alignParentLeft="true"
         android:layout_centerInParent="true"
-        android:visibility="gone"
-        />
+        android:visibility="gone" />
 
 
     <TextView
@@ -28,8 +27,7 @@
         android:text="标题"
         android:textColor="@android:color/white"
         android:textSize="@dimen/dp18"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
 
     <ImageView
