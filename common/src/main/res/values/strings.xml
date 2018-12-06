@@ -18,5 +18,8 @@
     <string name="str_help_center">帮助中心</string>
     <string name="str_personal_setting">设置</string>
     <string name="str_withdraw_coins">提币</string>
-    <string name="str_transfer_coins">划转</string>
+    <string name="str_transfer_coins">划转</string>\
+    <string name="str_home_ad">关于海特币交易所移动端APP上线通知</string>
+
+
 </resources>
