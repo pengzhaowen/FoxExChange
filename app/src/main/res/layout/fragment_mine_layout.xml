@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/home_bg"
+    android:background="@color/color_181B2C"
     android:orientation="vertical">
 
 <!--    <include layout="@layout/"-->
@@ -10,8 +10,8 @@
         android:layout_width="match_parent"
         android:layout_height="44dp"
         android:gravity="center"
-        android:text="@string/personal_center_title"
-        android:textColor="@color/common_white"
+        android:text="@string/str_personal_center_title"
+        android:textColor="@color/color_FFFFFF"
         android:textSize="18dp" />
 
     <ScrollView
@@ -21,7 +21,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/home_bg"
+            android:background="@color/color_181B2C"
             android:orientation="vertical">
 
             <RelativeLayout
@@ -35,7 +35,7 @@
                     android:layout_width="@dimen/dp60"
                     android:layout_height="@dimen/dp60"
                     android:layout_margin="@dimen/dp24"
-                    android:src="@mipmap/default_head" />
+                    android:src="@mipmap/icon_default_head" />
 
                 <TextView
                     android:id="@+id/person_center_user_name"
@@ -43,8 +43,8 @@
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:layout_toRightOf="@id/head_img"
-                    android:text="@string/login_and_regist"
-                    android:textColor="@color/common_white"
+                    android:text="@string/str_login_and_regist"
+                    android:textColor="@color/color_FFFFFF"
                     android:textSize="@dimen/sp17" />
 
                 <TextView
@@ -54,7 +54,7 @@
                     android:layout_centerVertical="true"
                     android:layout_marginRight="@dimen/dp24"
                     android:text="〉"
-                    android:textColor="@color/common_white" />
+                    android:textColor="@color/color_FFFFFF" />
 
             </RelativeLayout>
 
@@ -78,14 +78,14 @@
                     <ImageView
                         android:layout_width="@dimen/dp30"
                         android:layout_height="@dimen/dp30"
-                        android:src="@mipmap/recharge_coins" />
+                        android:src="@mipmap/icon_recharge_coins" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/personal_recharge_coin"
+                        android:text="@string/str_personal_recharge_coin"
                         android:textColor="#C3CDFF"
-                        android:textSize="@dimen/sp13" />
+                        android:textSize="@dimen/dp13" />
                 </LinearLayout>
 
                 <View
@@ -106,12 +106,12 @@
                     <ImageView
                         android:layout_width="@dimen/dp30"
                         android:layout_height="@dimen/dp30"
-                        android:src="@mipmap/withdraw_coins" />
+                        android:src="@mipmap/icon_withdraw_coins" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/withdraw_coins"
+                        android:text="@string/str_withdraw_coins"
                         android:textColor="#C3CDFF"
                         android:textSize="@dimen/sp13" />
                 </LinearLayout>
@@ -134,12 +134,12 @@
                     <ImageView
                         android:layout_width="@dimen/dp30"
                         android:layout_height="@dimen/dp30"
-                        android:src="@mipmap/transfer_coins" />
+                        android:src="@mipmap/icon_transfer_coins" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/transfer_coins"
+                        android:text="@string/str_transfer_coins"
                         android:textColor="#C3CDFF"
                         android:textSize="@dimen/sp13" />
                 </LinearLayout>
@@ -166,14 +166,14 @@
                         android:layout_width="@dimen/dp25"
                         android:layout_height="@dimen/dp25"
                         android:layout_margin="@dimen/dp24"
-                        android:src="@mipmap/my_asset" />
+                        android:src="@mipmap/icon_my_asset" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/my_asset"
-                        android:textColor="@color/common_white"
+                        android:text="@string/str_my_asset"
+                        android:textColor="@color/color_FFFFFF"
                         android:textSize="@dimen/sp17" />
 
                     <TextView
@@ -181,7 +181,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginRight="@dimen/dp10"
                         android:text="〉"
-                        android:textColor="@color/common_white" />
+                        android:textColor="@color/color_FFFFFF" />
 
                 </LinearLayout>
 
@@ -204,14 +204,14 @@
                         android:layout_width="@dimen/dp25"
                         android:layout_height="@dimen/dp25"
                         android:layout_margin="@dimen/dp24"
-                        android:src="@mipmap/my_orders" />
+                        android:src="@mipmap/icon_my_orders" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/my_orders"
-                        android:textColor="@color/common_white"
+                        android:text="@string/str_my_orders"
+                        android:textColor="@color/color_FFFFFF"
                         android:textSize="@dimen/sp17" />
 
                     <TextView
@@ -219,7 +219,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginRight="@dimen/dp10"
                         android:text="〉"
-                        android:textColor="@color/common_white" />
+                        android:textColor="@color/color_FFFFFF" />
 
                 </LinearLayout>
 
@@ -242,14 +242,14 @@
                         android:layout_width="@dimen/dp25"
                         android:layout_height="@dimen/dp25"
                         android:layout_margin="@dimen/dp24"
-                        android:src="@mipmap/certification" />
+                        android:src="@mipmap/icon_certification" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/certification"
-                        android:textColor="@color/common_white"
+                        android:text="@string/str_certification"
+                        android:textColor="@color/color_FFFFFF"
                         android:textSize="@dimen/sp17" />
 
                     <TextView
@@ -257,7 +257,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
                         android:text="〉"
-                        android:textColor="@color/common_white" />
+                        android:textColor="@color/color_FFFFFF" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -282,14 +282,14 @@
                         android:layout_width="@dimen/dp25"
                         android:layout_height="@dimen/dp25"
                         android:layout_margin="@dimen/dp24"
-                        android:src="@mipmap/invite_commission" />
+                        android:src="@mipmap/icon_invite_commission" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/invite_commission"
-                        android:textColor="@color/common_white"
+                        android:text="@string/str_invite_commission"
+                        android:textColor="@color/color_FFFFFF"
                         android:textSize="@dimen/sp17" />
 
                     <TextView
@@ -297,7 +297,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
                         android:text="〉"
-                        android:textColor="@color/common_white" />
+                        android:textColor="@color/color_FFFFFF" />
 
                 </LinearLayout>
 
@@ -320,14 +320,14 @@
                         android:layout_width="@dimen/dp25"
                         android:layout_height="@dimen/dp25"
                         android:layout_margin="@dimen/dp24"
-                        android:src="@mipmap/security_center" />
+                        android:src="@mipmap/icon_security_center" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/security_center"
-                        android:textColor="@color/common_white"
+                        android:text="@string/str_security_center"
+                        android:textColor="@color/color_FFFFFF"
                         android:textSize="@dimen/sp17" />
 
                     <TextView
@@ -335,7 +335,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginRight="@dimen/dp10"
                         android:text="〉"
-                        android:textColor="@color/common_white" />
+                        android:textColor="@color/color_FFFFFF" />
 
                 </LinearLayout>
 
@@ -358,14 +358,14 @@
                         android:layout_width="@dimen/dp25"
                         android:layout_height="@dimen/dp25"
                         android:layout_margin="@dimen/dp24"
-                        android:src="@mipmap/withdraw_addr" />
+                        android:src="@mipmap/icon_withdraw_addr" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/withdraw_addr"
-                        android:textColor="@color/common_white"
+                        android:text="@string/str_withdraw_addr"
+                        android:textColor="@color/color_FFFFFF"
                         android:textSize="@dimen/sp17" />
 
                     <TextView
@@ -373,7 +373,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginRight="@dimen/dp10"
                         android:text="〉"
-                        android:textColor="@color/common_white" />
+                        android:textColor="@color/color_FFFFFF" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -399,14 +399,14 @@
                         android:layout_width="@dimen/dp25"
                         android:layout_height="@dimen/dp25"
                         android:layout_margin="@dimen/dp24"
-                        android:src="@mipmap/messages_center" />
+                        android:src="@mipmap/icon_messages_center" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/messages_center"
-                        android:textColor="@color/common_white"
+                        android:text="@string/str_messages_center"
+                        android:textColor="@color/color_FFFFFF"
                         android:textSize="@dimen/sp17" />
 
                     <TextView
@@ -414,7 +414,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginRight="@dimen/dp10"
                         android:text="〉"
-                        android:textColor="@color/common_white" />
+                        android:textColor="@color/color_FFFFFF" />
 
                 </LinearLayout>
 
@@ -437,14 +437,14 @@
                         android:layout_width="@dimen/dp25"
                         android:layout_height="@dimen/dp25"
                         android:layout_margin="@dimen/dp24"
-                        android:src="@mipmap/help_center" />
+                        android:src="@mipmap/icon_help_center" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/help_center"
-                        android:textColor="@color/common_white"
+                        android:text="@string/str_help_center"
+                        android:textColor="@color/color_FFFFFF"
                         android:textSize="@dimen/sp17" />
 
                     <TextView
@@ -452,7 +452,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
                         android:text="〉"
-                        android:textColor="@color/common_white" />
+                        android:textColor="@color/color_FFFFFF" />
 
                 </LinearLayout>
 
@@ -475,14 +475,14 @@
                         android:layout_width="@dimen/dp25"
                         android:layout_height="@dimen/dp25"
                         android:layout_margin="@dimen/dp24"
-                        android:src="@mipmap/personal_setting" />
+                        android:src="@mipmap/icon_personal_setting" />
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/personal_setting"
-                        android:textColor="@color/common_white"
+                        android:text="@string/str_personal_setting"
+                        android:textColor="@color/color_FFFFFF"
                         android:textSize="@dimen/sp17" />
 
                     <TextView
@@ -490,7 +490,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginRight="10dp"
                         android:text="〉"
-                        android:textColor="@color/common_white" />
+                        android:textColor="@color/color_FFFFFF" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

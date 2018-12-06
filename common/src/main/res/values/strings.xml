@@ -5,23 +5,18 @@
     <string name="str_c2c">C2C</string>
     <string name="str_exchange">交易</string>
     <string name="str_mine">我的</string>
-    <string name="personal_center_title">个人中心</string>
-    <string name="login_and_regist">登录/注册</string>
-    <string name="personal_recharge_coin">充币</string>
-    <string name="my_asset">我的资产</string>
-    <string name="my_orders">我的订单</string>
-    <string name="certification">实名认证</string>
-    <string name="invite_commission">邀请返佣</string>
-    <string name="security_center">安全中心</string>
-    <string name="withdraw_addr">提币地址</string>
-    <string name="messages_center">消息中心</string>
-    <string name="help_center">帮助中心</string>
-    <string name="personal_setting">设置</string>
-    <string name="withdraw_coins">提币</string>
-    <string name="transfer_coins">划转</string>
-    <string name="str_home_ad">关于海特币交易所移动端APP上线通知</string>
-
-
-
-
+    <string name="str_personal_center_title">个人中心</string>
+    <string name="str_login_and_regist">登录/注册</string>
+    <string name="str_personal_recharge_coin">充币</string>
+    <string name="str_my_asset">我的资产</string>
+    <string name="str_my_orders">我的订单</string>
+    <string name="str_certification">实名认证</string>
+    <string name="str_invite_commission">邀请返佣</string>
+    <string name="str_security_center">安全中心</string>
+    <string name="str_withdraw_addr">提币地址</string>
+    <string name="str_messages_center">消息中心</string>
+    <string name="str_help_center">帮助中心</string>
+    <string name="str_personal_setting">设置</string>
+    <string name="str_withdraw_coins">提币</string>
+    <string name="str_transfer_coins">划转</string>
 </resources>
