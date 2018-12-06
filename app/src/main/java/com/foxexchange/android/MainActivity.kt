@@ -3,11 +3,11 @@ package com.foxexchange.android
 import android.os.Bundle
 import com.cjwsc.idcm.Utils.ToastUtil
 import com.cjwsc.idcm.base.AppManager
+import com.cjwsc.idcm.kotlin.base.BaseActivity
 import com.cjwsc.idcm.widget.NavigateTabBar
 import com.foxexchange.android.fragments.*
-import com.foxexchange.common.activitys.BaseFoxExChangeActivity
 
-class MainActivity : BaseFoxExChangeActivity() {
+class MainActivity : BaseActivity() {
     var languageTag: String? = ""
     var isOpen = false
     var mNavigateTabBar: NavigateTabBar? = null
