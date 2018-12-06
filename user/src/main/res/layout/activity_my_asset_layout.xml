@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/color_181B2C"
     android:orientation="vertical">
 
-     <include
+    <include
         layout="@layout/include_toolbar"
         android:visibility="gone" />
 
@@ -16,10 +15,15 @@
         android:background="@color/color_1E2238"
         android:orientation="vertical">
 
-        <com.flyco.tablayout.SlidingTabLayout
+        <com.flyco.tablayout.CommonTabLayout
+            android:id="@+id/frg_tab"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/dp44"
-            />
+            android:layout_height="@dimen/dp44" />
+
+        <FrameLayout
+            android:id="@+id/fragments_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
 
     </LinearLayout>
