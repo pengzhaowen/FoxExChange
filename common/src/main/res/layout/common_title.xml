@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp44">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_181B2C">
+        
+        <TextView
+            android:id="@+id/back_tv"
+            android:layout_width="@dimen/dp30"
+            android:layout_height="match_parent"
+            android:text="〈"
+            android:textSize="@dimen/sp13"
+            android:gravity="center"
+            android:textColor="@color/color_FFFFFF"/>
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/sp18"
+            android:text="我的资产"
+            android:gravity="center"
+            android:textColor="@color/color_FFFFFF"/>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
