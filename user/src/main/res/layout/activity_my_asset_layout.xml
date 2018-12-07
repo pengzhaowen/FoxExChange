@@ -13,15 +13,21 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/color_1E2238"
+        android:gravity="center_horizontal"
         android:orientation="vertical">
 
-        <com.flyco.tablayout.CommonTabLayout
+        <com.flyco.tablayout.SlidingTabLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:tl_textSelectColor="@color/color_0994FE"
+            app:tl_textUnselectColor="@color/color_6470A9"
+            android:layout_gravity="center_horizontal"
             android:id="@+id/frg_tab"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
+            app:tl_indicator_color="@color/color_0994FE"
             android:layout_height="@dimen/dp44" />
 
-        <FrameLayout
-            android:id="@+id/fragments_container"
+        <android.support.v4.view.ViewPager
+            android:id="@+id/frag_vp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
