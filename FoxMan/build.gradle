@@ -157,6 +157,10 @@ dependencies {
 
     //圆角
     compile 'com.github.open-android:RoundedImageView:v1.0.0'
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+}
+repositories {
+    mavenCentral()
 }
 
 
