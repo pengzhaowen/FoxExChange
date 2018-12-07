@@ -1,9 +1,9 @@
 package com.foxexchange.android.fragments
 
 import android.os.Bundle
-import com.cjwsc.idcm.kotlin.base.BaseFragment
+import com.cjwsc.idcm.kotlin.base.BaseKTFragment
 
-class ExchangeFragment : BaseFragment() {
+class C2CKTFragment : BaseKTFragment() {
     override val layoutId: Int
         get() = 0
 

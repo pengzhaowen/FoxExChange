@@ -4,10 +4,8 @@ import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.View
 import android.view.ViewGroup
-import android.widget.LinearLayout
 import android.widget.RelativeLayout
-import com.cjwsc.idcm.base.BaseView
-import com.cjwsc.idcm.kotlin.base.BaseFragment
+import com.cjwsc.idcm.kotlin.base.BaseKTFragment
 import com.flyco.tablayout.SegmentTabLayout
 import com.foxexchange.android.R
 import com.foxexchange.android.utils.GlideImageLoader
@@ -16,14 +14,13 @@ import com.lqr.adapter.LQRViewHolderForRecyclerView
 import com.youth.banner.Banner
 import com.youth.banner.BannerConfig
 import com.youth.banner.Transformer
-import com.youth.banner.listener.OnBannerListener
 
-class HomeFragment : BaseFragment() {
+class HomeKTFragment : BaseKTFragment() {
 
 
     var adapter:LQRAdapterForRecyclerView<*>?=null
     var titles= mutableListOf<String>("涨幅榜","跌幅榜")
-    var fragments:ArrayList<Fragment>?= arrayListOf(IncreaseorDownFragment(),IncreaseorDownFragment())
+    var fragments:ArrayList<Fragment>?= arrayListOf(IncreaseorDownKTFragment(),IncreaseorDownKTFragment())
 
     override val layoutId: Int
         get() = R.layout.fragment_home_layout

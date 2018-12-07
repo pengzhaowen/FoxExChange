@@ -1,21 +1,18 @@
 package com.foxexchange.android.fragments
 
 import android.os.Bundle
-import android.support.v7.widget.RecyclerView
 import android.widget.TextView
 
-import com.cjwsc.idcm.base.BaseView
-import com.cjwsc.idcm.kotlin.base.BaseFragment
+import com.cjwsc.idcm.kotlin.base.BaseKTFragment
 import com.foxexchange.android.R
 import com.foxexchange.android.beans.IncreaseDownBean
 import com.lqr.adapter.LQRAdapterForRecyclerView
 import com.lqr.adapter.LQRViewHolderForRecyclerView
 import com.lqr.recyclerview.LQRRecyclerView
-import kotlinx.android.synthetic.main.fragment_increaseordown.*
 
 import java.util.ArrayList
 
-class IncreaseorDownFragment :BaseFragment() {
+class IncreaseorDownKTFragment :BaseKTFragment() {
 
     var adapter:LQRAdapterForRecyclerView<Any>?=null
     var lqrRecyclerView:LQRRecyclerView?=null

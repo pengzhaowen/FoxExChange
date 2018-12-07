@@ -5,12 +5,12 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import com.cjwsc.idcm.Utils.GlideUtil
-import com.cjwsc.idcm.kotlin.base.BaseFragment
+import com.cjwsc.idcm.kotlin.base.BaseKTFragment
 import com.foxexchange.android.R
-import com.foxexchange.user.MyAssetActivity
+import com.foxexchange.user.MyAssetKTActivity
 import kotlinx.android.synthetic.main.fragment_mine_layout.*
 
-class MineFragment : BaseFragment() {
+class MineKTFragment : BaseKTFragment() {
 
     override val layoutId: Int
         get() = R.layout.fragment_mine_layout
@@ -45,7 +45,7 @@ class MineFragment : BaseFragment() {
             is_login_ly -> isLogin()
 
             recharge_coins_ly -> {  //我的资产
-                jumpToNext(MyAssetActivity().javaClass)
+                jumpToNext(MyAssetKTActivity().javaClass)
             }
 
             withdraw_coins_ly -> isLogin()

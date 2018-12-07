@@ -29,7 +29,7 @@ import io.reactivex.disposables.Disposable
  * 备注消息：
  * 修改时间：2016/11/14 上午11:28
  */
-abstract class BaseFragment : RxFragment(), BaseProgressView<Any> {
+abstract class BaseKTFragment : RxFragment(), BaseProgressView<Any> {
     protected var rootView: View? = null
     protected var mContext: Context? = null//context
     private var isViewPrepared: Boolean = false // 标识fragment视图已经初始化完毕
