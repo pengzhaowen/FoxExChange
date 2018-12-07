@@ -5,9 +5,14 @@
 
   >
 
-    <include android:id="@+id/home_head"
-        layout="@layout/layout_home_head"
-        />
+    <!--<include android:id="@+id/home_head"-->
+        <!--layout="@layout/layout_home_head"-->
+        <!--/>-->
+
+    <com.lqr.recyclerview.LQRRecyclerView
+        android:id="@+id/homelist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 
 

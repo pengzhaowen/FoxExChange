@@ -278,4 +278,6 @@ abstract class BaseFragment : RxFragment(), BaseProgressView<Any> {
     fun <T : View> `$`(@IdRes resId: Int): T {
         return rootView!!.findViewById<View>(resId) as T
     }
+
+//    abstract fun getViewImp(): BaseView<*>?
 }

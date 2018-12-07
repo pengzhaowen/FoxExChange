@@ -21,5 +21,16 @@
     <string name="str_transfer_coins">划转</string>\
     <string name="str_home_ad">关于海特币交易所移动端APP上线通知</string>
 
+    <string name="str_24h">名称/24H成交额</string>
+    <string name="str_24h_price">最新价</string>
+
+    <string name="str_24h_inpreaseordown">24H涨跌幅</string>
+    <string name="str_24h_2824">24H 成交额:2824万元</string>
+    <string name="str_customer_gui">币币交易新手攻略</string>
+    <string name="str_a_month">1月前</string>
+    <string name="str_demo_time">2018-10-11 18:00:00</string>
+
+
+
 
 </resources>

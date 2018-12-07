@@ -2,5 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FoxMan" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/app" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/c2c" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/common" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/exchange" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/user" vcs="svn" />
   </component>
 </project>
