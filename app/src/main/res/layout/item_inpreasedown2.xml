@@ -8,13 +8,30 @@
     android:gravity="center"
   >
 
+
+    <TextView
+        android:layout_width="@dimen/dp15"
+        android:layout_height="@dimen/dp15"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="@dimen/dp16"
+        android:layout_marginLeft="@dimen/dp10"
+        android:background="@drawable/top2"
+        android:text="2"
+        android:textColor="@color/color_ffffff"
+        android:gravity="center"
+        />
+
+
     <LinearLayout
         android:id="@+id/root_left"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/dp10"
         >
+
+
 
         <TextView
             android:id="@+id/tr_tip"
@@ -23,7 +40,7 @@
             android:text="UP/GSG"
             android:textSize="@dimen/dp14"
             android:textColor="@color/color_ffffff"
-            android:layout_marginLeft="@dimen/dp11"
+            android:layout_marginLeft="@dimen/dp21"
 
             />
 
@@ -37,7 +54,8 @@
             android:textColor="@color/color_c3cdff"
             android:layout_below="@+id/tr_tip"
             android:layout_marginTop="@dimen/dp7"
-            android:layout_marginLeft="@dimen/dp11"
+            android:layout_marginLeft="@dimen/dp21"
+
             />
 
 
@@ -65,6 +83,7 @@
             android:layout_alignParentTop="true"
             android:layout_centerInParent="true"
             android:layout_marginTop="@dimen/dp4"
+            android:layout_marginLeft="@dimen/dp28"
 
             />
 
@@ -79,6 +98,7 @@
             android:layout_centerInParent="true"
             android:layout_marginTop="@dimen/dp7"
             android:layout_below="@+id/tr_price_tip_value"
+            android:layout_marginLeft="@dimen/dp28"
             />
 
 

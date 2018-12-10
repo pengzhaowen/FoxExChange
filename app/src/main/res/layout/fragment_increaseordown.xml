@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
   >
 
     <RelativeLayout
@@ -52,12 +53,18 @@
     </RelativeLayout>
 
 
-    <com.lqr.recyclerview.LQRRecyclerView
-        android:id="@+id/datalist"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/top_layout"
-        android:background="@color/color_1E2238"
-        />
+    <!--<com.lqr.recyclerview.LQRRecyclerView-->
+        <!--android:id="@+id/datalist"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/top_layout"-->
+        <!--android:background="@color/color_1E2238"-->
+        <!--/>-->
 
-</RelativeLayout>
+    <include
+        layout="@layout/item_inpreasedown1" />
+
+    <include
+        layout="@layout/item_inpreasedown2" />
+
+</LinearLayout>

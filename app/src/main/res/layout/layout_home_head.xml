@@ -3,77 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.youth.banner.Banner
-        android:id="@+id/banner"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/dp200"
 
-        />
-
-    <RelativeLayout
-        android:id="@+id/root_ad"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/color_1E2238"
-        android:layout_below="@+id/banner"
-        >
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dp50"
-            android:text="@string/str_home_ad"
-            android:textColor="@color/color_ffc3cdff"
-            android:textSize="@dimen/dp14"
-            android:gravity="center_vertical"
-            android:drawableLeft="@mipmap/icon_ad"
-            android:paddingLeft="@dimen/dp15"
-            android:drawablePadding="@dimen/dp12"
-            android:paddingBottom="@dimen/dp14"
-            android:paddingTop="@dimen/dp14" />
-
-    </RelativeLayout>
-
-
-    <RelativeLayout
-        android:id="@+id/root_tab"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/dp85"
-        android:layout_below="@+id/root_ad"
-        android:background="@color/color_181B2C"
-        android:gravity="center"
-        >
-
-
-        <com.flyco.tablayout.SegmentTabLayout
-            android:id="@+id/segmenttablayout"
-            android:layout_width="@dimen/dp251"
-            android:layout_height="@dimen/dp35"
-            app:tl_bar_stroke_color="@color/color_1E2238"
-            app:tl_textSelectColor="@color/color_ffffff"
-            app:tl_textUnselectColor="@color/color_ffffff"
-            app:tl_divider_color="@color/color_1E2238"
-            app:tl_bar_color="@android:color/transparent"
-            app:tl_bar_stroke_width="@dimen/dp0.5"
-            app:tl_divider_width="@dimen/dp0.5"
-            app:tl_indicator_color="@color/color_FF5755"
-
-
-            />
-
-
-    </RelativeLayout>
-
-
-    <RelativeLayout
-        android:id="@+id/tablayoutcontainer"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/root_tab"
-        >
-
-
-
-    </RelativeLayout>
 
 
 

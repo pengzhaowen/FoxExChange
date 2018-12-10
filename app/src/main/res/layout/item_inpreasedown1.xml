@@ -3,11 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/dp80"
-    android:minHeight="@dimen/dp60"
+    android:layout_height="@dimen/dp70"
     android:background="@color/color_1E2238"
-    android:gravity="center_vertical"
+    android:gravity="center"
   >
+
+
+    <TextView
+        android:layout_width="@dimen/dp15"
+        android:layout_height="@dimen/dp15"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="@dimen/dp16"
+        android:layout_marginLeft="@dimen/dp10"
+        android:background="@drawable/top1"
+        android:text="1"
+        android:textColor="@color/color_ffffff"
+        android:gravity="center"
+        />
+
 
     <LinearLayout
         android:id="@+id/root_left"
@@ -15,31 +28,34 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center_vertical"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="@dimen/dp15"
+        android:layout_marginLeft="@dimen/dp10"
         >
+
+
 
         <TextView
             android:id="@+id/tr_tip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/str_customer_gui"
+            android:text="UP/GSG"
             android:textSize="@dimen/dp14"
             android:textColor="@color/color_ffffff"
-
+            android:layout_marginLeft="@dimen/dp21"
 
             />
 
 
         <TextView
-            android:id="@+id/time_month"
+            android:id="@+id/tr_price_tip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/str_a_month"
+            android:text="24H 成交额:2824万元"
             android:textSize="@dimen/dp12"
-            android:textColor="@color/color_5A6183"
+            android:textColor="@color/color_c3cdff"
             android:layout_below="@+id/tr_tip"
             android:layout_marginTop="@dimen/dp7"
+            android:layout_marginLeft="@dimen/dp21"
+
             />
 
 
@@ -53,21 +69,21 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
         android:gravity="center_vertical"
-        android:layout_marginRight="@dimen/dp15"
         >
 
         <TextView
             android:id="@+id/rate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/str_demo_time"
+            android:text="6.986544"
             android:textSize="@dimen/dp12"
             android:textColor="@color/color_c3cdff"
             android:layout_alignParentTop="true"
             android:layout_centerInParent="true"
             android:layout_marginTop="@dimen/dp4"
+            android:layout_marginLeft="@dimen/dp28"
 
             />
 
@@ -76,14 +92,13 @@
             android:id="@+id/rmb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/str_demo_256"
+            android:text="¥ 0.00"
             android:textSize="@dimen/dp12"
             android:textColor="@color/color_c3cdff"
             android:layout_centerInParent="true"
             android:layout_marginTop="@dimen/dp7"
             android:layout_below="@+id/tr_price_tip_value"
-            android:drawableLeft="@drawable/tj"
-            android:drawablePadding="@dimen/dp10"
+            android:layout_marginLeft="@dimen/dp28"
             />
 
 
@@ -91,6 +106,19 @@
 
 
 
+
+    <TextView
+        android:layout_width="@dimen/dp65"
+        android:layout_height="@dimen/dp28"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dp15"
+        android:background="@drawable/shap_round_solid_ff5755_5"
+        android:textColor="@color/color_ffffff"
+        android:text="00.00%"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+
+        />
 
 
 </RelativeLayout>
