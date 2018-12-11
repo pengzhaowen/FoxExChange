@@ -1,9 +1,10 @@
 package com.foxexchange.android.fragments
 
 import android.os.Bundle
-import com.cjwsc.idcm.kotlin.base.BaseFragment
+import com.cjwsc.idcm.kotlin.base.BaseKTFragment
 
-class MarketFragment : BaseFragment() {
+class MarketKTFragment : BaseKTFragment() {
+
     override val layoutId: Int
         get() = 0
 

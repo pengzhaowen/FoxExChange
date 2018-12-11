@@ -37,7 +37,7 @@ import io.reactivex.disposables.Disposable
  * 备注消息：
  * 修改时间：2016/12/5 下午3:03
  */
-abstract class BaseActivity : RxAppCompatActivity(), BaseProgressView<Any> {
+abstract class BaseKTActivity : RxAppCompatActivity(), BaseProgressView<Any> {
     //    定义Presenter
     //    protected P mPresenter;
 

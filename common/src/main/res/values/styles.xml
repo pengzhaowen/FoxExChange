@@ -1,0 +1,12 @@
+<resources>
+    <!-- 实线 -->
+    <style name="line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp0.5
+        </item>
+        <item name="android:background">@color/color_343B60</item>
+    </style>
+
+
+
+</resources>

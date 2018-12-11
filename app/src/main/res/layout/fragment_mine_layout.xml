@@ -53,8 +53,7 @@
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:layout_marginRight="@dimen/dp24"
-                    android:text="〉"
-                    android:textColor="@color/color_FFFFFF" />
+                    android:background="@mipmap/icon_arrow" />
 
             </RelativeLayout>
 
@@ -63,7 +62,7 @@
                 android:layout_height="@dimen/dp90"
                 android:layout_marginLeft="@dimen/dp15"
                 android:layout_marginRight="@dimen/dp15"
-                android:background="@drawable/circle_corner_layout_bg"
+                android:background="@drawable/shape_circle_corner_layout_bg"
                 android:gravity="center_vertical"
                 android:orientation="horizontal">
 
@@ -151,7 +150,7 @@
                 android:layout_marginLeft="@dimen/dp15"
                 android:layout_marginTop="@dimen/dp10"
                 android:layout_marginRight="@dimen/dp15"
-                android:background="@drawable/circle_corner_layout_bg"
+                android:background="@drawable/shape_circle_corner_layout_bg"
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -179,9 +178,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="@dimen/dp10"
-                        android:text="〉"
-                        android:textColor="@color/color_FFFFFF" />
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dp24"
+                        android:background="@mipmap/icon_arrow" />
 
                 </LinearLayout>
 
@@ -217,9 +217,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="@dimen/dp10"
-                        android:text="〉"
-                        android:textColor="@color/color_FFFFFF" />
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dp24"
+                        android:background="@mipmap/icon_arrow" />
 
                 </LinearLayout>
 
@@ -255,9 +256,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="10dp"
-                        android:text="〉"
-                        android:textColor="@color/color_FFFFFF" />
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dp24"
+                        android:background="@mipmap/icon_arrow" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -267,7 +269,7 @@
                 android:layout_marginLeft="@dimen/dp15"
                 android:layout_marginTop="@dimen/dp10"
                 android:layout_marginRight="@dimen/dp15"
-                android:background="@drawable/circle_corner_layout_bg"
+                android:background="@drawable/shape_circle_corner_layout_bg"
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -295,10 +297,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="10dp"
-                        android:text="〉"
-                        android:textColor="@color/color_FFFFFF" />
-
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dp24"
+                        android:background="@mipmap/icon_arrow" />
                 </LinearLayout>
 
                 <View
@@ -333,10 +335,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="@dimen/dp10"
-                        android:text="〉"
-                        android:textColor="@color/color_FFFFFF" />
-
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dp24"
+                        android:background="@mipmap/icon_arrow" />
                 </LinearLayout>
 
                 <View
@@ -367,13 +369,13 @@
                         android:text="@string/str_withdraw_addr"
                         android:textColor="@color/color_FFFFFF"
                         android:textSize="@dimen/sp17" />
-
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="@dimen/dp10"
-                        android:text="〉"
-                        android:textColor="@color/color_FFFFFF" />
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dp24"
+                        android:background="@mipmap/icon_arrow" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -384,7 +386,7 @@
                 android:layout_marginTop="@dimen/dp10"
                 android:layout_marginRight="@dimen/dp15"
                 android:layout_marginBottom="@dimen/dp10"
-                android:background="@drawable/circle_corner_layout_bg"
+                android:background="@drawable/shape_circle_corner_layout_bg"
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -412,9 +414,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="@dimen/dp10"
-                        android:text="〉"
-                        android:textColor="@color/color_FFFFFF" />
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dp24"
+                        android:background="@mipmap/icon_arrow" />
 
                 </LinearLayout>
 
@@ -450,10 +453,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="10dp"
-                        android:text="〉"
-                        android:textColor="@color/color_FFFFFF" />
-
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dp24"
+                        android:background="@mipmap/icon_arrow" />
                 </LinearLayout>
 
                 <View
@@ -488,9 +491,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="10dp"
-                        android:text="〉"
-                        android:textColor="@color/color_FFFFFF" />
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/dp24"
+                        android:background="@mipmap/icon_arrow" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

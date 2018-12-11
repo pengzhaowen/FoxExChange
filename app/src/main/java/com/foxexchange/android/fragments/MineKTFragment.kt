@@ -5,19 +5,20 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import com.cjwsc.idcm.Utils.GlideUtil
-import com.cjwsc.idcm.kotlin.base.BaseFragment
+import com.cjwsc.idcm.base.ui.popwindow.ChoosePicPopWindow
+import com.cjwsc.idcm.kotlin.base.BaseKTFragment
 import com.foxexchange.android.R
-import com.foxexchange.user.MyAssetActivity
+import com.foxexchange.user.MyAssetKTActivity
 import kotlinx.android.synthetic.main.fragment_mine_layout.*
+import razerdp.basepopup.BasePopupWindow
 
-class MineFragment : BaseFragment() {
+class MineKTFragment : BaseKTFragment() {
 
     override val layoutId: Int
         get() = R.layout.fragment_mine_layout
 
     override fun onInitView(bundle: Bundle?) {
-//        GlideUtil.loadImageView(mContext, R.mipmap.icon_login_head, head_img)
-//        person_center_user_name.text = "凌"
+
     }
 
     override fun onEvent() {
@@ -44,15 +45,15 @@ class MineFragment : BaseFragment() {
         when (v) {
             is_login_ly -> isLogin()
 
-            recharge_coins_ly -> {  //我的资产
-                jumpToNext(MyAssetActivity().javaClass)
-            }
+            recharge_coins_ly -> isLogin()
 
             withdraw_coins_ly -> isLogin()
 
             transfer_coins_ly -> isLogin()
 
-            my_asset_ly -> isLogin()
+            my_asset_ly -> {  //我的资产
+                jumpToNext(MyAssetKTActivity().javaClass)
+            }
 
             my_orders_ly -> isLogin()
 
